@@ -9,7 +9,7 @@ The application was built based on a Maven Project. The dependencies are:
 * jdbc
 * javafx
 
-All the data is stored in a [PostrgreSQL](https://www.postgresql.org/) [Database](https://en.wikipedia.org/wiki/Database) created by me.
+All the data is stored in a [PostrgreSQL](https://www.postgresql.org) [Database](https://en.wikipedia.org/wiki/Database) created by me.
 The data is accessed through an **SQL Connection** realized by the jdbc.The project is complex from the **database** point of view because I implemented all CRUD operations on multiple tables.All the back end is done using [JAVA](https://en.wikipedia.org/wiki/Java_(programming_language)).
 
 The front end id done using [JavaFx](https://openjfx.io/),[Scene Builder](https://gluonhq.com/products/scene-builder/) and [CSS](https://en.wikipedia.org/wiki/CSS).
