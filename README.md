@@ -46,4 +46,16 @@ Here is an snippet of code from a css file I used for the payment View.
 # Visuals
 Here I added some pages from the app.
 * LogIn Page
-  ![LogIn]()
+  ![LogIn](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Welcome-Page.png)
+* SignUp Page
+  ![SignUp](https://github.com/bartha26/TennisShoppingApp/blob/main/res/SignUp-Page.png)
+* Main Page
+  ![Main Page](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Main-Page.png)
+* Review Page
+  ![Review Page](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Review-Page.png)
+* Finish Payment Page
+  ![Finish Payment Page](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Finish-Payment.png)
+
+# Further Developments
+1.I could implement a more user friendly interface,make the front end much better
+2.After I delete a user I should also delete it's orders.So I should automatically update the orders and productorders tables.
