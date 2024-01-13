@@ -41,4 +41,9 @@ The database was created by me in [PostgreSQL] (https://www.postgresql.org/) and
 
 # CSS
 Here is an snippet of code from a css file I used for the payment View.
-![CSS]()
+![CSS](https://github.com/bartha26/TennisShoppingApp/blob/main/res/CSS.png)
+
+# Visuals
+Here I added some pages from the app.
+* LogIn Page
+  ![LogIn]()
