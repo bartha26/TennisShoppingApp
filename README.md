@@ -32,6 +32,7 @@ The front end id done using [JavaFx](https://openjfx.io/),[Scene Builder](https:
 * class UserManager;//singleton class
 
 There are also other classes for SQLConnection, Controller(JavaFX) etc.
+![Class Diagram](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Class-Diagram.png)
 
 # Database
 
