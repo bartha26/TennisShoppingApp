@@ -37,5 +37,6 @@ There are also other classes for SQLConnection, Controller(JavaFX) etc.
 # Database
 The database was created by me in [PostgreSQL] (https://www.postgresql.org/) and it has 20 tables.The database is updated automatically based on the actions in the database.The tables have all sorts of constraints to be sure only the valid data enters the database.The diagram of the database can only fit in two pictures:
 ![Database1](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Database1.png)
-![Database2]()
+![Database2](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Database2.png)
+
 
