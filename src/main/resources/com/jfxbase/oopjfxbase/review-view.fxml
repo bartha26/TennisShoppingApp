@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@review-style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jfxbase.oopjfxbase.controllers.ReviewView">
+   <children>
+      <TextField fx:id="product" layoutX="34.0" layoutY="33.0" promptText="Search a product..." />
+      <TextField fx:id="brand" layoutX="34.0" layoutY="79.0" promptText="Search by Brand..." />
+      <Button fx:id="searchByRating" layoutX="57.0" layoutY="360.0" mnemonicParsing="false" onAction="#searchByRatingButtonClick" text="Search by Rating" />
+      <TableView fx:id="table" layoutX="426.0" prefHeight="679.0" prefWidth="485.0" />
+      <Button fx:id="search" layoutX="84.0" layoutY="120.0" mnemonicParsing="false" onAction="#searchButtonClick" text="Search" />
+      <Button fx:id="shoes" layoutX="83.0" layoutY="175.0" mnemonicParsing="false" onAction="#searchShoesButtonClick" text="Shoes" />
+      <Button fx:id="shirts" layoutX="84.0" layoutY="220.0" mnemonicParsing="false" onAction="#searchShirtButtonClick" text="Shirts" />
+      <Button fx:id="shorts" layoutX="82.0" layoutY="272.0" mnemonicParsing="false" onAction="#searchShortsButtonClick" text="Shorts" />
+      <Button fx:id="rackets" layoutX="78.0" layoutY="320.0" mnemonicParsing="false" onAction="#searchRacketsButtonClick" text="Rackets" />
+      <Button fx:id="back" mnemonicParsing="false" onAction="#backButtonClick" text="Back" />
+      <TextField fx:id="nameProductReview" layoutX="222.0" layoutY="33.0" promptText="ProductName..." />
+      <TextField fx:id="rating" layoutX="223.0" layoutY="79.0" promptText="Give rating..." />
+      <TextField fx:id="comments" alignment="TOP_LEFT" layoutX="222.0" layoutY="121.0" prefHeight="198.0" prefWidth="206.0" promptText="comments..." />
+      <Button fx:id="addReview" layoutX="261.0" layoutY="335.0" mnemonicParsing="false" onAction="#addReviewButtonClick" text="AddReview" />
+      <Text fx:id="reviewMessage" layoutX="285.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello!" />
+      <Button fx:id="myReviews" layoutX="68.0" layoutY="395.0" mnemonicParsing="false" onAction="#onMyReviewsButtonClick" text="MyReviews" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,121 @@
+/* Apply styling to the AnchorPane */
+#anchorPane {
+    -fx-pref-height: 797.0;
+    -fx-pref-width: 991.0;
+}
+
+/* Apply styling to the TableView with fx:id "table" */
+/* Apply styling to the TableView with fx:id "table" */
+/* Apply styling to the TableView with fx:id "table" */
+#table {
+    -fx-layout-x: 56.0;
+    -fx-pref-height: 798.0;
+    -fx-pref-width: 271.0;
+    -fx-background-color: #ffffff; /* Light grey background color */
+    -fx-column-resize-policy: constrained-resize; /* Set column resize policy */
+}
+
+/* Apply styling to the TableView rows */
+#table .table-row-cell:odd {
+    -fx-background-color: #1dbcd0; /* Alternate row color */
+}
+
+/* Apply styling to the TableView header */
+#table .column-header {
+    -fx-background-color: #3366cc; /* Blue header color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 14.0; /* Specify the font size */
+}
+
+/* Apply styling to the TableView cells */
+#table .table-cell {
+    -fx-border-color: #cccccc; /* Cell border color */
+    -fx-border-width: 0.5;
+    -fx-padding: 5.0; /* Cell padding */
+    -fx-text-fill: #333333; /* Cell text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+
+/* Apply styling to the Button with fx:id "back" */
+#back {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #8ca90d; /* Greenish color */
+    -fx-layout-y: 1.0;
+}
+#back:hover{
+    -fx-background-color: #2db82d; /* Greenish color */
+}
+
+/* Apply styling to the Button with fx:id "showData" */
+#showData {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #3366cc; /* Blue color */
+    -fx-layout-x: 327.0;
+    -fx-layout-y: 14.0;
+}
+#showData:hover{
+    -fx-background-color: #0717bb;
+}
+
+/* Apply styling to the Button with fx:id "addUser" */
+#addUser {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #3366cc; /* Blue color */
+    -fx-layout-x: 518.0;
+    -fx-layout-y: 123.0;
+}
+#addUser:hover{
+    -fx-background-color: #0717bb;
+}
+    /* Apply styling to the TextField with fx:id "userName" */
+#userName {
+    -fx-layout-x: 565.0;
+    -fx-layout-y: 14.0;
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}
+
+/* Apply styling to the Button with fx:id "deleteUser" */
+#deleteUser {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #cc0000; /* Dark red color */
+    -fx-layout-x: 602.0;
+    -fx-layout-y: 123.0;
+}
+#deleteUser:hover{
+    -fx-background-color: #640303;
+}
+
+/* Apply styling to the Button with fx:id "updatePassword" */
+#updatePassword {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #3366cc; /* Blue color */
+    -fx-layout-x: 694.0;
+    -fx-layout-y: 123.0;
+}
+#updatePassword:hover{
+    -fx-background-color: #043193;
+}
+/* Apply styling to the Text with fx:id "text" */
+#text {
+    -fx-layout-x: 625.0;
+    -fx-layout-y: 181.0;
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 0.0;
+    -fx-fill: #333333; /* Dark grey text color */
+}
+
+/* Apply styling to the PasswordField with fx:id "userPassword" */
+#userPassword {
+    -fx-layout-x: 566.0;
+    -fx-layout-y: 52.0;
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}
+
+/* Apply styling to the PasswordField with fx:id "userPassword2" */
+#userPassword2 {
+    -fx-layout-x: 567.0;
+    -fx-layout-y: 89.0;
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}

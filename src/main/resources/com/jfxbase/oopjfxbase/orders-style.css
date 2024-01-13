@@ -1,0 +1,56 @@
+
+#table {
+    -fx-layout-x: 423.0;
+    -fx-pref-height: 753.0;
+    -fx-pref-width: 700.0;
+    -fx-background-color: #ffffff; /* Light grey background color */
+    -fx-column-resize-policy: constrained-resize; /* Set column resize policy */
+}
+
+/* Apply styling to the TableView rows */
+#table .table-row-cell:odd {
+    -fx-background-color: #1dbcd0; /* Alternate row color */
+}
+
+/* Apply styling to the TableView header */
+#table .column-header {
+    -fx-background-color: #3366cc; /* Blue header color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 14.0; /* Specify the font size */
+}
+
+/* Apply styling to the TableView cells */
+#table .table-cell {
+    -fx-border-color: #cccccc; /* Cell border color */
+    -fx-border-width: 0.5;
+    -fx-padding: 5.0; /* Cell padding */
+    -fx-text-fill: #333333; /* Cell text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+
+#showOrders, #showProducts{
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #2834be; /* Greenish color */
+    -fx-layout-y: 1.0;
+}
+#showOrders:hover{
+    -fx-background-color: #060c83; /* Greenish color */
+}
+#showProducts:hover{
+    -fx-background-color: #060c83; /* Greenish color */
+}
+#back {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #8ca90d; /* Greenish color */
+    -fx-layout-y: 1.0;
+}
+#back:hover {
+    -fx-background-color: #2db82d; /* Darker green color on hover */
+}
+#orderNumber {
+    -fx-pref-width: 150.0; /* Set the preferred width for the TextField */
+}
+
+/* Add more styling as needed */
