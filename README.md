@@ -39,4 +39,6 @@ The database was created by me in [PostgreSQL] (https://www.postgresql.org/) and
 ![Database1](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Database1.png)
 ![Database2](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Database2.png)
 
-
+# CSS
+Here is an snippet of code from a css file I used for the payment View.
+![CSS]()
