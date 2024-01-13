@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="755af231-96d6-4895-8fe4-61ca1208df04" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2YLdUox6CiknqLPNOlw2gynUNO4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TudorB/Desktop/facultate/an2_sem1/OOP/postgresql-42.7.0.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.296334&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/jfxbase/oopjfxbase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TudorB\Desktop\OOP-jfx-base\src\main\resources\com\jfxbase\oopjfxbase" />
+      <recent name="C:\Users\TudorB\Desktop\OOP-jfx-base\.idea" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/jfxbase/oopjfxbase" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JFXBaseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jfxbase.oopjfxbase.JFXBaseApplication" />
+      <module name="OOP-jfx-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jfxbase.oopjfxbase.utils.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JFXBaseApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="755af231-96d6-4895-8fe4-61ca1208df04" name="Changes" comment="" />
+      <created>1700308813160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700308813160</updated>
+      <workItem from="1700308814254" duration="7231000" />
+      <workItem from="1700327668019" duration="605000" />
+      <workItem from="1700514768280" duration="2257000" />
+      <workItem from="1700558448165" duration="1905000" />
+      <workItem from="1700563521962" duration="1221000" />
+      <workItem from="1700677825321" duration="6037000" />
+      <workItem from="1700683898147" duration="12000" />
+      <workItem from="1700752357564" duration="3350000" />
+      <workItem from="1700994447319" duration="5305000" />
+      <workItem from="1701158791761" duration="3061000" />
+      <workItem from="1701262666308" duration="8795000" />
+      <workItem from="1701722374982" duration="8141000" />
+      <workItem from="1701804117011" duration="954000" />
+      <workItem from="1701882573039" duration="10647000" />
+      <workItem from="1702048372713" duration="38978000" />
+      <workItem from="1702303739211" duration="208000" />
+      <workItem from="1702306092190" duration="556000" />
+      <workItem from="1702325119370" duration="3187000" />
+      <workItem from="1702361540086" duration="17927000" />
+      <workItem from="1702555715670" duration="14232000" />
+      <workItem from="1702818412843" duration="31114000" />
+      <workItem from="1702970008980" duration="30146000" />
+      <workItem from="1703432732480" duration="13108000" />
+      <workItem from="1703860112539" duration="23318000" />
+      <workItem from="1704467980215" duration="158000" />
+      <workItem from="1704741469598" duration="2012000" />
+      <workItem from="1704795746410" duration="2467000" />
+      <workItem from="1705178511706" duration="38000" />
+      <workItem from="1705178573371" duration="445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
