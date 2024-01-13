@@ -31,8 +31,8 @@ The front end id done using [JavaFx](https://openjfx.io/),[Scene Builder](https:
 * class ShoppingCartManager;//singleton class
 * class UserManager;//singleton class
 
-There are also other classes for SQLConnection, Controller(JavaFX) etc.  
-Here is the full class diagram of the project.
+There are also other classes for **SQLConnection**, **Controller(JavaFX)** etc.  
+Here is the full _class diagram_ of the project.
 ![Class Diagram](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Class-Diagram.png)
 
 # Database
