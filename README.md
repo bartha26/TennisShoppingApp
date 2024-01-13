@@ -57,6 +57,5 @@ Here I added some pages from the app.
   ![Finish Payment Page](https://github.com/bartha26/TennisShoppingApp/blob/main/res/Finish-Payment.png)
 
 # Further Developments
-1.I could implement a more user friendly interface,make the front end much better
-
+1.I could implement a more user friendly interface,make the front end much better  
 2.After I delete a user I should also delete it's orders.So I should automatically update the orders and productorders tables.
