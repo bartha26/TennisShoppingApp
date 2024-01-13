@@ -1,0 +1,108 @@
+/* Apply styling to the AnchorPane with fx:id "anchorPane" */
+
+/* Apply styling to the Buttons */
+#back {
+    -fx-background-color: #8ca90d; /* Blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+#back:hover {
+    -fx-background-color: #2db82d; /* Darker green color on hover */
+}
+#rackets,
+#shorts,
+#shirts,
+#shoes{
+    -fx-background-color: #02e0fc; /* Blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+#rackets:hover,
+#shorts:hover,
+#shirts:hover,
+#shoes:hover {
+    -fx-background-color: #008bb5; /* Darker blue background color on hover */
+}
+#reviews{
+    -fx-background-color: #66ab3b; /* Blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+#reviews:hover{
+    -fx-background-color: #2d620a;
+}
+#addToCart {
+    -fx-background-color: #1d4caf; /* Blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+#addToCart:hover{
+    -fx-background-color: #072d77;
+}
+#seeCart{
+    -fx-background-color: #bd2a2a; /* Blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+#seeCart:hover{
+    -fx-background-color: #930404;
+}
+
+#formerOrders {
+    -fx-background-color: #602bad; /* Blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+#formerOrders:hover{
+    -fx-background-color: #4705a9;
+}
+
+/* Apply styling to the Text elements */
+#message {
+    -fx-fill: #008000; /* Green text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 16.0; /* Specify the font size */
+}
+
+/* Apply styling to the TextField elements */
+#nameField,
+#quantityField,
+#colorField,
+#minPriceField,
+#maxPriceField,
+#sizeField,
+#type {
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+
+/* Apply styling to the TableView elements */
+#table,
+#tableSecond,
+#tableThird {
+    -fx-background-color: #66ab3b; /* White background color */
+    -fx-column-resize-policy: constrained-resize; /* Set column resize policy */
+}
+
+/* Apply styling to the TableView rows */
+.table-row-cell:odd {
+    -fx-background-color: #1dbcd0; /* Alternate row color */
+}
+
+/* Apply styling to the TableView header */
+.table-view .column-header {
+    -fx-background-color: #3366cc; /* Blue header color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+
+#table{
+    -fx-pref-width: 1100.0;
+}

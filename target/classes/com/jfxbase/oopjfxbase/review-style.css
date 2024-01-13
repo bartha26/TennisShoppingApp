@@ -1,0 +1,107 @@
+
+#table {
+    -fx-layout-x: 426.0;
+    -fx-pref-height: 679.0;
+    -fx-pref-width: 1000.0;
+    -fx-background-color: #006da8; /* Light grey background color */
+    -fx-column-resize-policy: constrained-resize; /* Set column resize policy */
+}
+
+/* Apply styling to the TableView rows */
+#table .table-row-cell:odd {
+    -fx-background-color: #1dbcd0; /* Alternate row color */
+}
+
+/* Apply styling to the TableView header */
+#table .column-header {
+    -fx-background-color: #3366cc; /* Blue header color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 14.0; /* Specify the font size */
+}
+
+/* Apply styling to the TableView cells */
+#table .table-cell {
+    -fx-border-color: #cccccc; /* Cell border color */
+    -fx-border-width: 0.5;
+    -fx-padding: 5.0; /* Cell padding */
+    -fx-text-fill: #333333; /* Cell text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+
+/* Styling for TextFields */
+.text-field {
+    -fx-pref-width: 200.0; /* Set the preferred width for the TextField */
+    -fx-padding: 5.0; /* Add padding to the TextField */
+}
+
+#back {
+    -fx-font-size: 14.0; /* Set the font size for the back button */
+    -fx-background-color: #8ca90d; /* Tomato red background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the back button */
+}
+
+#back:hover {
+    -fx-background-color: #66ab3b; /* Darker red color on hover */
+}
+
+#addReview {
+    -fx-font-size: 14.0; /* Set the font size for the AddReview button */
+    -fx-background-color: #32cd32; /* Lime green background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the AddReview button */
+}
+
+#addReview:hover {
+    -fx-background-color: #024802; /* Darker green color on hover */
+}
+#search,
+#shoes,
+#shirts,
+#shorts,
+#rackets,
+#searchByRating{
+    -fx-font-size: 14.0; /* Set the font size for the AddReview button */
+    -fx-background-color: #0fc8e3; /* Lime green background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the AddReview button */
+}
+
+#search:hover{
+    -fx-background-color: #047180; /* Darker green color on hover */
+}
+#shoes:hover{
+    -fx-background-color: #047180; /* Darker green color on hover */
+}
+#shirts:hover{
+    -fx-background-color: #047180; /* Darker green color on hover */
+}
+#shorts:hover{
+    -fx-background-color: #047180; /* Darker green color on hover */
+}
+#rackets:hover{
+    -fx-background-color: #047180; /* Darker green color on hover */
+}
+#searchByRating:hover{
+    -fx-background-color: #047180; /* Darker green color on hover */
+}
+
+
+#myReviews{
+    -fx-font-size: 14.0; /* Set the font size for the AddReview button */
+    -fx-background-color: #3263cd; /* Lime green background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the AddReview button */
+}
+#myReviews:hover{
+    -fx-background-color: #043193; /* Darker green color on hover */
+}
+/* Styling for the review message */
+#reviewMessage {
+    -fx-font-size: 16.0; /* Set the font size for the review message */
+    -fx-fill: #008000; /* Green text color for success messages */
+}
+
+/* Add more styling as needed */

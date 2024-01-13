@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="758.0" prefWidth="931.0" stylesheets="@cart-style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jfxbase.oopjfxbase.controllers.CartController">
+   <children>
+      <TableView fx:id="table" layoutX="527.0" layoutY="-7.0" prefHeight="766.0" prefWidth="404.0" />
+      <Text layoutX="106.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete an item" />
+      <TextField fx:id="deleteField" layoutX="70.0" layoutY="103.0" promptText="Name..." />
+      <Button fx:id="delete" layoutX="228.0" layoutY="103.0" mnemonicParsing="false" onAction="#onDeleteButtonClick" text="Delete" />
+      <Button fx:id="back" layoutY="1.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Back" />
+      <Button fx:id="pay" layoutX="412.0" layoutY="158.0" mnemonicParsing="false" onAction="#onPayButtonClick" text="Pay" />
+      <Button fx:id="showData" layoutX="395.0" layoutY="103.0" mnemonicParsing="false" onAction="#onShowDataButtonClick" text="ShowData" />
+      <Button fx:id="modify" layoutX="226.0" layoutY="145.0" mnemonicParsing="false" onAction="#onModifyButtonClick" text="Modify" />
+      <TextField fx:id="quantityField" layoutX="70.0" layoutY="145.0" promptText="quantity..." />
+      <Text fx:id="amount" layoutX="349.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amonut:" />
+   </children>
+</AnchorPane>

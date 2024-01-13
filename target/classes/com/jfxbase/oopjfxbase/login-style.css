@@ -1,0 +1,68 @@
+/* Apply styling to the VBox */
+VBox {
+    -fx-alignment: center;
+    -fx-pref-height: 366.0;
+    -fx-pref-width: 388.0;
+    -fx-spacing: 20.0;
+    -fx-padding: 20.0;
+  /*  -fx-background-color: linear-gradient(to bottom, #e6b800, #cca300); /* Mustard-like background */
+}
+
+/* Apply styling to the Text element with fx:id "userPrompt" */
+#userPrompt {
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 0.0;
+    -fx-text-fill: #808080; /* Grey text color */
+    -fx-font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Classy font */
+}
+
+/* Apply styling to the TextField with fx:id "userName" */
+#userName {
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}
+
+/* Apply styling to the PasswordField with fx:id "password" */
+#password {
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}
+
+/* Apply styling to the Button with id "goToByeScene" */
+#goToByeScene {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #cc0000; /* Dark red background color */
+    -fx-font-family: 'Lucida Calligraphy', 'URW Chancery L', cursive; /* Fancy font */
+    -fx-font-size: 14pt; /* Adjust font size as needed */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0); /* Drop shadow effect */
+}
+#goToByeScene:hover{
+    -fx-background-color: #800202;
+}
+
+/* Apply styling to the Button with id "Login" */
+#Login {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: GREEN; /* Dark blue background color */
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Standard sans-serif font */
+    -fx-font-size: 12pt; /* Adjust font size as needed */
+}
+#Login:hover{
+    -fx-background-color: #024802;
+}
+#SignIn{
+    -fx-background-color: #2e2ecc; /* Dark red background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0); /* Drop shadow effect */
+    -fx-font-size: 14pt; /* Adjust font size as needed */
+    -fx-font-family: 'Lucida Calligraphy', 'URW Chancery L', cursive; /* Fancy font */
+
+}
+#SignIn:hover{
+    -fx-background-color: #020239;
+}
+/* Apply styling to the Button with mnemonicParsing="false" */
+Button[mnemonicParsing="false"] {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #3366cc; /* Blue background color */
+    -fx-font-family: 'Times New Roman', Times, serif; /* Traditional font */
+    -fx-font-size: 14pt; /* Adjust font size as needed */
+}

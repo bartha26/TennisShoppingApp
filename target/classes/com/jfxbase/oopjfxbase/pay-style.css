@@ -1,0 +1,26 @@
+
+/* Styles for the Back button */
+#back {
+    -fx-font-size: 14.0; /* Set the font size for the Back button */
+    -fx-background-color: #8ca90d; /* Lime green background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the Back button */
+}
+
+#back:hover {
+    -fx-background-color: #2db82d; /* Darker green color on hover */
+}
+
+/* Styles for the FinishPayment button */
+#finishPayment {
+    -fx-font-size: 14.0; /* Set the font size for the FinishPayment button */
+    -fx-background-color: #4682b4; /* Steel blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the FinishPayment button */
+}
+
+#finishPayment:hover {
+    -fx-background-color: #3a688b; /* Darker steel blue color on hover */
+}
+
+/* Add more styling as needed */

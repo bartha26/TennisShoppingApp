@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vBox" alignment="CENTER" spacing="20.0" stylesheets="@good-bye-view-style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jfxbase.oopjfxbase.controllers.GoodByeView">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Button fx:id="back" onAction="#onBackToHelloClick" text="Go back!" />
+    <Button fx:id="exit" onAction="#onCloseAppClick" text="Exit app!" />
+</VBox>

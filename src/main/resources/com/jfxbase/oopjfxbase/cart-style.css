@@ -1,0 +1,91 @@
+
+/* Styles for the Delete button */
+#delete {
+    -fx-font-size: 14.0; /* Set the font size for the Delete button */
+    -fx-background-color: #ff6347; /* Tomato red background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the Delete button */
+}
+
+#delete:hover {
+    -fx-background-color: #cc4c3c; /* Darker red color on hover */
+}
+
+/* Styles for the Back button */
+#back {
+    -fx-font-size: 14.0; /* Set the font size for the Back button */
+    -fx-background-color: #8ca90d; /* Lime green background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the Back button */
+}
+
+#back:hover {
+    -fx-background-color: #2db82d; /* Darker green color on hover */
+}
+
+/* Styles for the Pay button */
+#pay {
+    -fx-font-size: 14.0; /* Set the font size for the Pay button */
+    -fx-background-color: #4682b4; /* Steel blue background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the Pay button */
+}
+
+#pay:hover {
+    -fx-background-color: #3a688b; /* Darker steel blue color on hover */
+}
+
+/* Styles for the ShowData button */
+#showData {
+    -fx-font-size: 14.0; /* Set the font size for the ShowData button */
+    -fx-background-color: #ffa500; /* Orange background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the ShowData button */
+}
+
+#showData:hover {
+    -fx-background-color: #cc8400; /* Darker orange color on hover */
+}
+
+/* Styles for the Modify button */
+#modify {
+    -fx-font-size: 14.0; /* Set the font size for the Modify button */
+    -fx-background-color: #9932cc; /* Dark orchid background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-padding: 5.0 10.0; /* Padding for the Modify button */
+}
+
+#modify:hover {
+    -fx-background-color: #7a2975; /* Darker dark orchid color on hover */
+}
+#table {
+    -fx-layout-x: 426.0;
+    -fx-pref-height: 679.0;
+    -fx-pref-width: 1000.0;
+    -fx-background-color: #006da8; /* Light grey background color */
+    -fx-column-resize-policy: constrained-resize; /* Set column resize policy */
+}
+
+/* Apply styling to the TableView rows */
+#table .table-row-cell:odd {
+    -fx-background-color: #1dbcd0; /* Alternate row color */
+}
+
+/* Apply styling to the TableView header */
+#table .column-header {
+    -fx-background-color: #3366cc; /* Blue header color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 14.0; /* Specify the font size */
+}
+
+/* Apply styling to the TableView cells */
+#table .table-cell {
+    -fx-border-color: #cccccc; /* Cell border color */
+    -fx-border-width: 0.5;
+    -fx-padding: 5.0; /* Cell padding */
+    -fx-text-fill: #333333; /* Cell text color */
+    -fx-font-family: "Arial", sans-serif; /* Specify the font family */
+    -fx-font-size: 12.0; /* Specify the font size */
+}
+/* Add more styling as needed */

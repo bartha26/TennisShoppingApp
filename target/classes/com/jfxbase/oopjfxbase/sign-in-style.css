@@ -1,0 +1,46 @@
+/* Apply styling to the AnchorPane */
+#anchorPane {
+    -fx-pref-height: 488.0;
+    -fx-pref-width: 731.0;
+}
+
+/* Apply styling to the TextField with fx:id "userName" */
+#userName {
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}
+
+/* Apply styling to the Text elements */
+Text {
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 0.0;
+    -fx-fill: #333333; /* Dark grey text color */
+}
+
+/* Apply styling to the Button with fx:id "signIn" */
+#signIn {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #3366cc; /* Blue background color */
+}
+#signIn:hover{
+    -fx-background-color: #043193; /* Blue background color */
+}
+
+/* Apply styling to the Text with fx:id "userPrompt" */
+#userPrompt {
+    -fx-stroke-type: outside;
+    -fx-stroke-width: 0.0;
+    -fx-fill:  #8ca90d; /* Dark red text color */
+}
+
+/* Apply styling to the Button with fx:id "back" */
+#back {
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-background-color: #8ca90d; /* Dark red background color */
+}
+#back:hover{
+    -fx-background-color: #2db82d; /* Dark red background color */
+}
+    /* Apply styling to the PasswordField with fx:id "password" */
+#password {
+    -fx-prompt-text-fill: #808080; /* Grey prompt text color */
+}
