@@ -3,8 +3,8 @@ This is my first project In the 2nd year at the Technical University of Cluj-Nap
 # Author
 Bartha Tudor|2nd Year Computer Science | Technical University of Cluj-Napoca
 # Description
-The project is a desktop app.The project is built as a tennis market selling rackets,shorts,shirts and shoes.The clients cand make an account based on which they can make orders,see former orders and give reviews.The administrator has a special account based on which he can create a user,delete a user or update a user's password.
-The application was built based on a Maven Project. The dependencies are:
+The project is a desktop app.The project is built as a **tennis market** selling rackets,shorts,shirts and shoes.The clients cand make an **account** based on which they can make orders,see former orders and give reviews.The administrator has a special account based on which he can create a user,delete a user or update a user's password.
+The application was built based on a [Maven Project](https://maven.apache.org/). The dependencies are:
 * postgresql
 * jdbc
 * javafx
